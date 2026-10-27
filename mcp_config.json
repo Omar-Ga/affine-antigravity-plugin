@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "affine-search": {
+      "url": "https://app.affine.pro/api/workspaces/6d8fb4b0-af98-4233-b8c0-74d737f28021/mcp",
+      "serverUrl": "https://app.affine.pro/api/workspaces/6d8fb4b0-af98-4233-b8c0-74d737f28021/mcp",
+      "headers": {
+        "Authorization": "Bearer aff_mcp_v1.7b70df0c-f89a-49d7-8c9c-387b930d9295.6jWQPoQ_rr7qWAbLU1FyIms0LHFdeWWMGJgyRTxyDsI"
+      }
+    },
+    "affine-actions": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "-p",
+        "affine-mcp-server",
+        "affine-mcp"
+      ],
+      "env": {
+        "AFFINE_BASE_URL": "https://app.affine.pro",
+        "AFFINE_COOKIE": "affine_user_id=4a970571-c1a8-40ac-80a1-8976f8376d82; affine_csrf_token=8ece0e54-b341-422b-b691-a07ec3443394; affine_session=790e563c-7210-4503-b07b-9ab52b127214",
+        "AFFINE_WORKSPACE_ID": "6d8fb4b0-af98-4233-b8c0-74d737f28021",
+        "AFFINE_TOOL_PROFILE": "authoring",
+        "AFFINE_DISABLED_GROUPS": "docs.read,destructive,admin,users,notifications",
+        "AFFINE_DISABLED_TOOLS": "search_docs,read_doc,get_doc,sign_in,current_user"
+      }
+    }
+  }
+}

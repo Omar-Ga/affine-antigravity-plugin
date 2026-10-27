@@ -1,0 +1,11 @@
+{
+  "name": "affine",
+  "displayName": "AFFiNE Dual-MCP Integration",
+  "description": "Unified dual-MCP integration for AFFiNE workspaces: semantic search, doc retrieval, structured editing, databases, and whiteboards.",
+  "version": "1.0.0",
+  "suggestedPrompts": [
+    "Search AFFiNE notes for relevant documents",
+    "Create a new document in AFFiNE from markdown",
+    "List databases and tables in my AFFiNE workspace"
+  ]
+}
